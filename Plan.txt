@@ -44,3 +44,14 @@ $ notes note view
    ________________________________________________________________________________
  - Wrong username/password !
  - Internal Error !
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Todo [] -
+
+[*] Basic setup for commands
+[*] Question setup for one command
+[ ] Check configstore package
+[ ] Add a user lib to manage user
