@@ -1,14 +1,15 @@
 const program = require('commander');
+const note = require('../actions/note');
 
 program
 .command('create')
 .description('Create a new note')
-.action(() => console.log('Create a new note'));
+.action(note.create);
 
 program
 .command('view')
 .description('View notes for an existing user')
-.action(() => console.log('View notes'));
+.action(note.view);
 
 program.parse(process.argv);
 

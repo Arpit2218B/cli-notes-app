@@ -1,9 +1,10 @@
 const program = require('commander');
+const password = require('../actions/password');
 
 program
 .command('update')
 .description('Update password for an existing user')
-.action(() => console.log('Update password'));
+.action(password.update);
 
 program.parse(process.argv);
 
