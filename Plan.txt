@@ -1,0 +1,46 @@
+Plan - 
+
+A simple app to take one liner notes with password security
+
+$ notes user create
+> Enter username : __________
+> Enter password : **********
+> Re-enter password : **********
+ - User __________ created successfully !
+ - Password do not match !
+ - Username already in use. Try with another username !
+ - Internal Error !
+
+$ notes user delete
+> Enter username : __________
+> Enter password : **********
+> Delete user and all corresponding notes (Y/n) : __
+ - User deleted successfully !
+ - Delete operation cancelled !
+ - Internal Error !
+
+$ notes password update
+> Enter username : __________
+> Enter old password: **********
+> Enter new password: **********
+ - User does not exists. Create user !
+ - Password successfully updated for user __________ !
+ - Password does not match criteria !
+
+$ notes note create
+> Enter username : __________
+> Enter password : **********
+> Enter note : ________________________________________________________________________________
+ - Note created successfully !
+ - Wrong username/password !
+ - Internal Error !
+
+$ notes note view
+> Enter username : __________
+> Enter password : **********
+ - ________________________________________________________________________________
+   ________________________________________________________________________________
+   ________________________________________________________________________________
+   ________________________________________________________________________________
+ - Wrong username/password !
+ - Internal Error !
